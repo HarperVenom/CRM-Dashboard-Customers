@@ -1,0 +1,13 @@
+.dashboard-menu {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-menu footer {
+  margin-top: auto;
+}
+
+.dashboard-menu .header {
+  font-weight: 600;
+  font-size: 26;
+}

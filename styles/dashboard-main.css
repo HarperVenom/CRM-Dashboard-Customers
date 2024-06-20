@@ -1,0 +1,31 @@
+main {
+  flex-grow: 1;
+  display: flex;
+  margin: auto;
+  max-width: max-content;
+  align-items: center;
+  flex-direction: column;
+}
+
+main h1 {
+  width: 100%;
+  text-align: start;
+}
+
+main .table-section header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .table-section header .heading {
+  display: flex;
+  flex-direction: column;
+}
+main .table-section footer {
+  display: flex;
+  justify-content: space-between;
+}
+main .table-section footer nav ul {
+  display: flex;
+}
