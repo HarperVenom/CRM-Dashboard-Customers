@@ -1,9 +1,12 @@
 .dashboard-menu {
+  flex-grow: 0;
+  flex-shrink: 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   padding: 2.25rem 1.75rem 4.75rem 1.75rem;
   background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 .dashboard-menu header {
   display: flex;
