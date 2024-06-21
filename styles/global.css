@@ -1,4 +1,14 @@
 :root {
+  --background: #fafbff;
+  --text1: black;
+  --text-gray: #838383;
+  --text-gray2: #757575;
+  --text3: #9197b3;
+
+  --active: #5932ea;
+  --active-hover: #5a32eaa5;
+
+  font-family: "Poppins", sans-serif;
 }
 
 .poppins {
@@ -10,4 +20,14 @@ body {
   width: 100vw;
   min-height: 100svh;
   display: flex;
+  background-color: var(--background);
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
