@@ -1,0 +1,43 @@
+.overlay 
+aside.dashboard-menu
+    header 
+        include ../svgs/logo
+        
+    nav 
+        ul 
+        li
+            a(href="") 
+                include ../svgs/dashboard-icon
+                | Dashboard
+        li
+            a(href="")
+                include ../svgs/product-icon 
+                | Product 
+                include ../svgs/chevron-svg
+        li
+            a.active(href="")
+                include ../svgs/customers-icon 
+                | Customers 
+                include ../svgs/chevron-svg
+        li
+            a(href="")
+                include ../svgs/income-icon 
+                | Income 
+                include ../svgs/chevron-svg
+        li
+            a(href="")
+                include ../svgs/promote-icon 
+                | Promote 
+                include ../svgs/chevron-svg
+        li
+            a(href="")  
+                include ../svgs/help-icon 
+                | Help 
+                include ../svgs/chevron-svg
+
+    footer 
+        .profile 
+            img.picture(src="./../assets/profile-pic.png", alt="profile picture")
+            .info 
+                h2.username Evano
+                p.role Project Manager

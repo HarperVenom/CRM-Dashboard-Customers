@@ -1,0 +1,110 @@
+main 
+    .wrapper    
+        h1 Hello Evano👋🏼,
+        section.table-section 
+
+            header 
+                .heading 
+                    h2 All Customers
+                    p Active Members
+                .search-bar 
+                    include ../svgs/search-svg
+                    input(type="search" placeholder="Search")
+
+            .table-container 
+                table 
+                    thead 
+                        th Customer Name
+                        th Company
+                        th Phone Number
+                        th Email
+                        th Country
+                        th Status
+                    tr 
+                        td Jane Cooper
+                        td Microsoft
+                        td (225) 555-0118
+                        td jane@microsoft.com
+                        td United States
+                        td 
+                            .status Active
+                    tr 
+                        td Floyd Miles
+                        td Yahoo
+                        td (205) 555-0100
+                        td floyd@yahoo.com
+                        td Kiribati
+                        td 
+                            .status.inactive Inactive
+                    tr 
+                        td Ronald Richards
+                        td Adobe
+                        td (302) 555-0107
+                        td ronald@adobe.com
+                        td Israel
+                        td 
+                            .status.inactive Inactive
+                    tr 
+                        td Marvin McKinney
+                        td Tesla
+                        td (252) 555-0126
+                        td marvin@tesla.com
+                        td Iran
+                        td 
+                            .status Active
+                    tr 
+                        td Jerome Bell
+                        td Google
+                        td (629) 555-0129
+                        td jerome@google.com
+                        td Réunion
+                        td 
+                            .status Active
+                    tr 
+                        td Kathryn Murphy
+                        td Microsoft
+                        td (406) 555-0120
+                        td kathryn@microsoft.com
+                        td Curaçao
+                        td 
+                            .status Active
+                    tr 
+                        td Jacob Jones
+                        td Yahoo
+                        td (208) 555-0112
+                        td jacob@yahoo.com
+                        td Brazil
+                        td 
+                            .status Active
+                    tr 
+                        td Kristin Watson
+                        td Facebook
+                        td (704) 555-0127
+                        td kristin@facebook.com
+                        td Åland Islands
+                        td 
+                            .status.inactive Inactive
+
+            footer 
+                p.
+                    Showing data <span>1</span> to <span>8</span> of
+                    <span>256K</span> entries
+                nav 
+                    ul 
+                        li
+                            a(href="") <
+                        li
+                            a.active(href="") 1
+                        li
+                            a(href="") 2
+                        li
+                            a(href="") 3
+                        li
+                            a(href="") 4
+                        li
+                            |...
+                        li
+                            a(href="") 40
+                        li
+                            a(href="") >
+                    
