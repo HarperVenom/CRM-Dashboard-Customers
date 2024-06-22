@@ -1,0 +1,38 @@
+.page-header {
+  grid-area: header;
+  background-color: white;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.page-header #menu-button {
+  border: none;
+  padding: 0.5rem;
+  margin: 0.6rem 1rem;
+  stroke: var(--dark-gray);
+  border-radius: 5px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+.page-header #menu-button:hover {
+  background-color: var(--active-hover);
+  stroke: white;
+}
+.page-header #menu-button:active {
+  background-color: var(--active);
+}
+
+.page-header #menu-button svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media screen and (min-width: 1550px) {
+  .page-header {
+    display: none;
+  }
+}
